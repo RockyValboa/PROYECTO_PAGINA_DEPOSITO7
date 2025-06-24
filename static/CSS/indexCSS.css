@@ -80,9 +80,8 @@ body {
 
 main {
   color: black;
-  width: var(100vw);
+  width: calc(100vw);
   max-width: 1000px;
-  height: auto;
   overflow: auto;
   flex-wrap: wrap;
   justify-content: center;
@@ -133,7 +132,7 @@ article {
   }
 }
 
-aside {
+& aside {
   width: 10%;
   max-width: 1000px;
   min-width: 150px;
@@ -148,7 +147,6 @@ aside {
   border-style: solid;
   flex: 1 1 calc(30 - 40px);
   box-sizing: border-box;
-  transition: transform 0.3s ease;
 
   & img {
     width: 100%;
@@ -165,10 +163,6 @@ aside {
     text-align: center;
     justify-content: center;
   }
-}
-aside:hover {
-  transform: scale(1.05);
-  background-color: #e8e0f4;
 }
 
 .DIV1 {

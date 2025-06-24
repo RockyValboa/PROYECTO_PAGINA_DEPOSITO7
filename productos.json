@@ -1,0 +1,401 @@
+[
+    {
+        "nombre": "Lamina Zinc Acesco C/30 3.05mts",
+        "precio": 53000,
+        "imagen": "",
+        "categoria": "Zinc",
+        "stock": 200
+    },
+    {
+        "nombre": "Lamina Zinc Acesco C/33 3.66mts",
+        "precio": 51500,
+        "imagen": "",
+        "categoria": "Zinc",
+        "stock": 200
+    },
+    {
+        "nombre": "Lamina Zinc Acesco C/33 3.05mts",
+        "precio": 43000,
+        "imagen": "",
+        "categoria": "Zinc",
+        "stock": 200
+    },
+    {
+        "nombre": "Lamina Zinc Acesco C/33 2.14mts",
+        "precio": 30000,
+        "imagen": "",
+        "categoria": "Zinc",
+        "stock": 200
+    },
+    {
+        "nombre": "Lamina Zinc Acesco C/34 3.66mts",
+        "precio": 46600,
+        "imagen": "",
+        "categoria": "Zinc",
+        "stock": 200
+    },
+    {
+        "nombre": "Lamina Zinc Acesco C/34 3.05mts",
+        "precio": 38900,
+        "imagen": "",
+        "categoria": "Zinc",
+        "stock": 200
+    },
+    {
+        "nombre": "Lamina Zinc Acesco C/34 2.14mts",
+        "precio": 27200,
+        "imagen": "",
+        "categoria": "Zinc",
+        "stock": 200
+    },
+    {
+        "nombre": "Lamina Zinc Acesco C/35 3.05mts",
+        "precio": 31500,
+        "imagen": "",
+        "categoria": "Zinc",
+        "stock": 200
+    },
+    {
+        "nombre": "Lamina Zinc Acesco C/35 2.14",
+        "precio": 22000,
+        "imagen": "",
+        "categoria": "Zinc",
+        "stock": 200
+    },
+    {
+        "nombre": "Master Mil Galvanizada 3.05mts",
+        "precio": 88450,
+        "imagen": "",
+        "categoria": "Cubiertas",
+        "stock": 200
+    },
+    {
+        "nombre": "Master Mil Galvanizada 3.66mts",
+        "precio": 106140,
+        "imagen": "",
+        "categoria": "Cubiertas",
+        "stock": 200
+    },
+    {
+        "nombre": "Master Mil Galvanizada 4mts",
+        "precio": 116000,
+        "imagen": "",
+        "categoria": "Cubiertas",
+        "stock": 200
+    },
+    {
+        "nombre": "Master Mil Galvanizada 5mts",
+        "precio": 145000,
+        "imagen": "",
+        "categoria": "Cubiertas",
+        "stock": 200
+    },
+    {
+        "nombre": "Master Mil Galvanizada 6mts",
+        "precio": 174000,
+        "imagen": "",
+        "categoria": "Cubiertas",
+        "stock": 200
+    },
+    {
+        "nombre": "Master Mil Galvanizada 7mts",
+        "precio": 203000,
+        "imagen": "",
+        "categoria": "Cubiertas",
+        "stock": 200
+    },
+    {
+        "nombre": "Master Mil Galvanizada 8mts",
+        "precio": 232000,
+        "imagen": "",
+        "categoria": "Cubiertas",
+        "stock": 200
+    },
+    {
+        "nombre": "Master Mil Roja 5mts",
+        "precio": 195000,
+        "imagen": "",
+        "categoria": "Cubiertas",
+        "stock": 200
+    },
+    {
+        "nombre": "Master Mil Roja 6mts",
+        "precio": 234000,
+        "imagen": "",
+        "categoria": "Cubiertas",
+        "stock": 200
+    },
+    {
+        "nombre": "Master Mil Roja 7mts",
+        "precio": 273000,
+        "imagen": "",
+        "categoria": "Cubiertas",
+        "stock": 200
+    },
+    {
+        "nombre": "Master Mil Roja 8mts",
+        "precio": 312000,
+        "imagen": "",
+        "categoria": "Cubiertas",
+        "stock": 200
+    },
+    {
+        "nombre": "Master Mil Azul 5mts",
+        "precio": 195000,
+        "imagen": "",
+        "categoria": "Cubiertas",
+        "stock": 200
+    },
+    {
+        "nombre": "Master Mil Azul 6mts",
+        "precio": 234000,
+        "imagen": "",
+        "categoria": "Cubiertas",
+        "stock": 200
+    },
+    {
+        "nombre": "Master Mil Azul 7mts",
+        "precio": 273000,
+        "imagen": "",
+        "categoria": "Cubiertas",
+        "stock": 200
+    },
+    {
+        "nombre": "Master Mil Azul 8mts",
+        "precio": 312000,
+        "imagen": "",
+        "categoria": "Cubiertas",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Colempaques 5000lts Alto",
+        "precio": 4000000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Colempaques 2000lts Alto",
+        "precio": 1100000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Colempaques 1000lts Alto",
+        "precio": 580000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Colempaques 500lts Alto",
+        "precio": 355000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Colempaques 4000lts Bajo",
+        "precio": 2550000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Colempaques 2000lts Bajo",
+        "precio": 1480000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Colempaques 1000lts Bajo",
+        "precio": 730000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Colempaques 500lts Bajo",
+        "precio": 445000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Tankplast 2000lts Alto",
+        "precio": 980000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Tankplast 1000lts Alto",
+        "precio": 510000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Tankplast 500lts Alto",
+        "precio": 305000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Tankplast 250lts Alto",
+        "precio": 230000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Tankplast 2000lts Bajo",
+        "precio": 1340000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Tankplast 1000lts Bajo",
+        "precio": 605000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Tankplast 500lts Bajo",
+        "precio": 370000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Tanque Tankplast 250lts Bajo",
+        "precio": 285000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Caja Puntillas Puma 5'",
+        "precio": 165000,
+        "imagen": "",
+        "categoria": "Puntillas",
+        "stock": 200
+    },
+    {
+        "nombre": "Caja Puntillas Puma 4'",
+        "precio": 165000,
+        "imagen": "",
+        "categoria": "Tanques",
+        "stock": 200
+    },
+    {
+        "nombre": "Caja Puntillas Puma 3 1/2'",
+        "precio": 165000,
+        "imagen": "",
+        "categoria": "Puntillas",
+        "stock": 200
+    },
+    {
+        "nombre": "Caja Puntillas Puma 3'",
+        "precio": 165000,
+        "imagen": "",
+        "categoria": "Puntillas",
+        "stock": 200
+    },
+    {
+        "nombre": "Caja Puntillas Puma 2 1/2'",
+        "precio": 165000,
+        "imagen": "",
+        "categoria": "Puntillas",
+        "stock": 200
+    },
+    {
+        "nombre": "Caja Puntillas Puma 2'",
+        "precio": 165000,
+        "imagen": "",
+        "categoria": "Puntillas",
+        "stock": 200
+    },
+    {
+        "nombre": "Caja Puntillas Puma 1 1/2'",
+        "precio": 175000,
+        "imagen": "",
+        "categoria": "Puntillas",
+        "stock": 200
+    },
+    {
+        "nombre": "Caja Puntillas Puma 1'",
+        "precio": 185000,
+        "imagen": "",
+        "categoria": "Puntillas",
+        "stock": 200
+    },
+    {
+        "nombre": "Tornillos Ala Zinc'",
+        "precio": 450,
+        "imagen": "",
+        "categoria": "Tornillos",
+        "stock": 200
+    },
+    {
+        "nombre": "Tornillos 1' Zinc'",
+        "precio": 450,
+        "imagen": "",
+        "categoria": "Tornillos",
+        "stock": 200
+    },
+    {
+        "nombre": "Tornillos 1 1/2' Zinc'",
+        "precio": 550,
+        "imagen": "",
+        "categoria": "Tornillos",
+        "stock": 200
+    },
+    {
+        "nombre": "Tornillos Ala Ajover",
+        "precio": 1100,
+        "imagen": "",
+        "categoria": "Tornillos",
+        "stock": 200
+    },
+    {
+        "nombre": "Tornillos Sombrilla",
+        "precio": 1100,
+        "imagen": "",
+        "categoria": "Tornillos",
+        "stock": 200
+    },
+    {
+        "nombre": "Tornillos 2 1/2' Madera",
+        "precio": 1300,
+        "imagen": "",
+        "categoria": "Tornillos",
+        "stock": 200
+    },
+    {
+        "nombre": "Tornillos 3' Madera",
+        "precio": 1600,
+        "imagen": "",
+        "categoria": "Tornillos",
+        "stock": 200
+    },
+    {
+        "nombre": "Tornillos 2 5/8' Metal",
+        "precio": 1200,
+        "imagen": "",
+        "categoria": "Tornillos",
+        "stock": 200
+    },
+    {
+        "nombre": "Tornillos 3' Metal",
+        "precio": 1600,
+        "imagen": "",
+        "categoria": "Tornillos",
+        "stock": 200
+    }
+]

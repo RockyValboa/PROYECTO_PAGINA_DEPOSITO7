@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Zinc",
+        "imagen": "Imagenes/zinc.png"
+    },
+    {
+        "nombre": "Cubierta",
+        "imagen": "Imagenes/MASTER-1000.png"
+    },
+    {
+        "nombre": "Tanques",
+        "imagen": "Imagenes/Tanques_de_Agua_2.000_L.png"
+    },
+    {
+        "nombre": "Puntillas",
+        "imagen": "Imagenes/puntillas.png"
+    },
+    {
+        "nombre": "Tornillos",
+        "imagen": "Imagenes/tornillo-autoperforante.png"
+    },
+    {
+        "nombre": "Perfiles",
+        "imagen": "Imagenes/perfiles.png"
+    }
+]

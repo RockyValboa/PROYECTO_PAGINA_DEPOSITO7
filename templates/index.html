@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DEPOSITO 7 DE AGOSTO</title>
-  <link rel="stylesheet" href="CSS/indexCSS.css" />
+  <link rel="stylesheet" href="{{url_for('static',filename='CSS/indexCSS.css')}}" />
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
 </head>
 
@@ -21,13 +21,14 @@
   </section>
   <section class="second">
     <nav class="deposito_logo">
-      <img src="Imagenes/deposito_logo.png" />
+      <img src="../static/Imagenes/deposito_logo.png" />
       <span>Home</span>
-      <span>Contacto</span>
+      <span>Contacto {{ cuenta }}</span>
     </nav>
   </section>
   <div class="contenedor">
     <main>
+      
       <article>
         <div class="div_texts"> 
           <h2 class="text_products">
@@ -39,30 +40,33 @@
             Conoce las soluciones integrales de Acesco que fortalecen la industria, el comercio y el sector constructor en Colombia. 
           </p>
         </div>
-        <aside class="zinc">
-          <img src="Imagenes/zinc.png" />
-          <footer>Zinc</footer>
+         {% for p in products %}
+        <aside>
+          <img src="{{url_for('static',filename=p.imagen)}}" />
+          <footer>{{p.nombre}}</footer>
         </aside>
-        <aside class="cubiertas">
-          <img src="Imagenes/MASTER-1000.png" />
+        {% endfor %}
+        <!-- <aside class="cubiertas">
+          <img src="../static/Imagenes/MASTER-1000.png" />
           <footer>Cubiertas</footer>
         </aside>
         <aside class="tanques">
-          <img src="Imagenes/Tanque_de_Agua_2.000_L.png" />
+          <img src="../static/Imagenes/Tanque_de_Agua_2.000_L.png" />
           <footer>Tanques</footer>
         </aside>
         <aside class="puntillas">
-          <img src="Imagenes/puntillas.png" />
+          <img src="../static/Imagenes/puntillas.png" />
           <footer>Puntillas</footer>
         </aside>
         <aside class="tornillos">
-          <img src="Imagenes/tornillo-autoperforante.png" />
+          <img src="../static/Imagenes/tornillo-autoperforante.png" />
           <footer>Tornillos</footer>
         </aside>
       <aside class="perfiles">
-        <img src="Imagenes/perfiles.png" />
+        <img src="../static/Imagenes/perfiles.png" />
         <footer>Perfiles</footer>
-      </article>
+      </article> -->
+      
     </main>
   </div>
     <div class="DIV1">
@@ -71,12 +75,12 @@
         <p class="subP">Acercate a nuestra local para tener acceso a una atención unica donde te podremos asesorar para una compra inteligente.</p>
       </div>
       <span>
-          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="facebook">
+        <img src="../static/Imagenes/59439.png">
       </span>
     </div>
   <footer class="foot2">
     <div class="mi_div2">
-      <img src = "Imagenes/deposito_logo.png">
+      <img src = "../static/Imagenes/deposito_logo.png">
     </div>
     <div class="textos">
       <span>
@@ -84,14 +88,6 @@
       </span>
       <span>
         <a>Contacto</a>
-      </span>
-    </div>
-    <div class="textos2">
-      <span>
-        <a>Terminos y condiciones</a>
-      </span>
-      <span>
-        <a>Protección de datos personales</a>
       </span>
     </div>
   </footer>
