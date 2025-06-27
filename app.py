@@ -17,6 +17,8 @@ MONGO_URI = "mongodb+srv://sebastianvillanuevamosquera:Sebastian_20041@sebastian
 mongo= MongoClient(MONGO_URI)
 # Seleccionamos la base de datos
 base_datos = mongo.proyecto_pagina_deposito
+
+colection_products = base_datos.productsComplete
 colection_products = base_datos.products
 
 
@@ -24,13 +26,25 @@ colection_products = base_datos.products
 @app.route("/", methods = ["GET"])
 def principal():
     # Consultamos los productos en la colección
-    products = list(colection_products .find())
+    products = list(colection_products.find())
     # Convertimos los _id a cadena de caractéres
     for item in products:
         item["_id"] = str(item["_id"])
 
     # Enviamos la lista de productos al archivo html
     return render_template("index.html", products = products)
+
+@app.route("/products/<nombre_categoria>", methods = ["GET"])
+def products(nombre_categoria):
+    productsComplete = list(colection_products.find({"categoria": nombre_categoria}))
+    for item in productsComplete:
+        item["_id"] = str(item["_id"])
+
+    return render_template("products.html", productsComplete = productsComplete)
+
+
+
+
 # Tambien podemos crear una API
 @app.route("/api/videos", methods = ["GET"])
 def api_products():

@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DEPOSITO 7 DE AGOSTO</title>
-    <link
-      rel="stylesheet"
-      href="{{url_for('static',filename='CSS/indexCSS.css')}}"
-    />
+    <link rel="stylesheet" href="CSS/indexCSS.css" />
     <meta
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
@@ -33,16 +30,8 @@
     <div class="contenedor">
       <main>
         <article>
-          <div class="div_texts">
-            <h2 class="text_products">
-              PRODUCTOS QUE
-              <strong>CONSTRUYEN</strong>
-              DESARROLO Y FUTURO
-            </h2>
-            <p class="subtext">
-              Conoce las soluciones integrales de Acesco que fortalecen la
-              industria, el comercio y el sector constructor en Colombia.
-            </p>
+          <div class="div_image">
+            <img src="../static/Imagenes/ToppingMeaning.png" />
           </div>
           {% for p in products %}
           <aside>
